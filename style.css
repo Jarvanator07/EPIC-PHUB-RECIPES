@@ -1,13 +1,36 @@
 body {
-  font-family: 'Rajdani', sans-serif;
-  font-weight: 500;
+    font-family: 'Rajdani', 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
-
-
-
+.header {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    background-color: aliceblue;
+}
 
 h1 {
     font-size: 100px;
     margin: 0px;
+}
+
+.Recipes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.columbs {
+    width: 33%;
+    text-align: center;
+}
+
+.columbs img {
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 25px;
+    border: 5px solid blue;
 }
