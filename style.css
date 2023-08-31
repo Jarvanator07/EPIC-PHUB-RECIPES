@@ -1,3 +1,13 @@
+body {
+  font-family: 'Rajdani', sans-serif;
+  font-weight: 500;
+}
+
+
+
+
+
 h1 {
-    color: aliceblue;
+    font-size: 100px;
+    margin: 0px;
 }
