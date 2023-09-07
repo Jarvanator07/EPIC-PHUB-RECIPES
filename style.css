@@ -11,10 +11,30 @@ body {
     background-color: aliceblue;
 }
 
-.header h1 {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    font-size: 110px;
+h1 {
+    font-size: 100px;
+    margin: 0px;
+}
+
+#borger {
+    background-image: url("borger.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
+
+#pankake {
+    background-image: url("pankake.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
+
+#pissa {
+    background-image: url("pissa.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
 }
 
 .Recipes {
@@ -29,7 +49,7 @@ body {
     text-align: center;
 }
 
-.columbs img {
+.columbs div {
     margin-top: 10px;
     width: 90%;
     border-radius: 25px;
